@@ -1,0 +1,54 @@
+{
+    "manufacturer": "hanneslinder",
+    "keyboard_name": "macropad_custom",
+    "maintainer": "hanneslinder",
+    "development_board": "promicro",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["D4", "E6", "B6"], 
+            ["D0", "D7", "B5"], 
+            ["D1", "C6", "B4"],
+            ["B2", "F5"]
+        ]
+    },
+    "rgb_matrix": {
+        "default": {
+            "speed": 50
+        },
+        "driver": "ws2812"
+    },
+    "ws2812": {
+        "pin": "B1"
+    },
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2.5, "y": 0},
+                {"matrix": [1, 0], "x": 0.25, "y": 1.25},
+                {"matrix": [1, 1], "x": 1.25, "y": 1.25},
+                {"matrix": [1, 2], "x": 2.25, "y": 1.25},
+                {"matrix": [2, 0], "x": 0, "y": 2.5},
+                {"matrix": [2, 1], "x": 1.25, "y": 2.25},
+                {"matrix": [2, 2], "x": 2.5, "y": 2.5},
+                {"matrix": [3, 0], "x": 1.25, "y": 2.25},
+                {"matrix": [3, 1], "x": 2.5, "y": 2.5}
+            ]
+        }
+    }
+}

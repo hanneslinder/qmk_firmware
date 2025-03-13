@@ -1,0 +1,25 @@
+
+DETAILED PIN CONNECTIONS
+-----------------------
+Arduino Pro Micro Pin | Component          | Notes
+----------------------|--------------------|-----------------------
+RAW                   | -                  | Not used
+GND                   | Common Ground      | Connect to all GND points
+RST                   | -                  | Not used
+VCC                   | 5V Power           | Connect to switches/encoders/LEDs VCC
+2                     | Switch 1           | Other pin to GND
+3                     | Switch 2           | Other pin to GND
+4                     | Switch 3           | Other pin to GND
+5                     | Switch 4           | Other pin to GND
+6                     | Switch 5           | Other pin to GND
+7                     | Switch 6           | Other pin to GND
+8                     | Switch 7           | Other pin to GND
+9                     | Switch 8           | Other pin to GND
+10                    | Switch 9           | Other pin to GND
+A0/F7                 | Encoder 1 - Pin A  | 10kΩ pullup to VCC
+A1/F6                 | Encoder 1 - Pin B  | 10kΩ pullup to VCC
+A2/F5                 | Encoder 1 - Button | 10kΩ pullup to VCC
+A3/F4                 | Encoder 2 - Pin A  | 10kΩ pullup to VCC
+14/MISO               | Encoder 2 - Pin B  | 10kΩ pullup to VCC
+15/SCLK               | WS2812B Data In    | First LED in chain
+16/MOSI               | Encoder 2 - Button | 10kΩ pullup to VCC
